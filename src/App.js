@@ -1,9 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Review from './Review';
 const App = () => {
   return (
-    <h4>Reviews project</h4>
+    <main>
+      <div className="container">
+        <div className="title">
+          <h2>opinie</h2>
+          <div className="underline"></div>
+        </div>
+      </div>
+      <Review />
+    </main>
   )
 }
 
